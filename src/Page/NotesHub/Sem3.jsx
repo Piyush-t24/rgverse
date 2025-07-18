@@ -739,17 +739,17 @@ const Notes = () => {
       image: "/assets/branches/CSE2.webp",
       contributors: [
         { name: "@Md Ashhar", profileUrl: "/profile/Ashhar21" },
-        { name: "@Vivek", profileUrl: "/profile/VivekThakur23" },
+        // { name: "@Vivek", profileUrl: "/profile/VivekThakur23" },
       ],
       handwrittenLinks: [
         {
           label: "Handwritten Notes (2021)",
           url: "https://drive.google.com/drive/folders/1zCB6TSCy3UqphO6_at9Q3YXaH14LDJfL",
         },
-        {
-          label: "Handwritten Notes (2021)",
-          url: "https://drive.google.com/drive/folders/1qoySTI02_RIlAVad1hTDJzFam04cPP32",
-        },
+        // {
+        //   label: "Handwritten Notes (2021)",
+        //   url: "https://drive.google.com/drive/folders/1qoySTI02_RIlAVad1hTDJzFam04cPP32",
+        // },
       ],
       link2: "#",
       link3: "#",
