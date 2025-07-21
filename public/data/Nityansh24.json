@@ -1,0 +1,31 @@
+{
+  "name": "Nitynash Pant (2024-28)",
+  "location": "Ghaziabad",
+  "branch": "MnC",
+  "bio": "Ex-Intern @ CDOT, New Delhi | 3 x Hackathon Wins || B.Tech Mathematics & Computing @ RGIPT || GSSoC'25 Mentor",
+  "avatar": "https://github.com/thynash.png",
+  "portfolio": "https://github.com/thynash",
+  "skills": [
+    "Machine Learning",
+    "Deep Learning",
+    "Quantum ML",
+    "Threat Intelligence",
+    "SIEMS",
+    "Anomaly Detection",
+    "Artificial Neural Networks",
+    "Quantum Computing",
+    "Qiskit",
+    "pennylane",
+    "cirq",
+    "Data Analysis",
+    "Data Visualization",
+    "Python (Programming Language)",
+    "SQL"
+  ],
+  "social": {
+    "GitHub": "https://github.com/thynash",
+    "LinkedIn": "www.linkedin.com/in/nityanshpant",
+    "Email": "nityanshpant@gmail.com",
+    "Discord": "https://discord.com/users/antisyn"
+  }
+}
