@@ -1,11 +1,23 @@
 {
-  "name": "Aadya Agarwal (2024-28)", 
+  "name": "Aadya Agarwal (2024-28)",
   "location": "Ranikhet",
   "branch": "CSE",
   "bio": "I'm deeply passionate about coding, and algorithm solving excites me. I am driven by my goal and committed to mastering my craft.",
-  "avatar": "https://res.cloudinary.com/djiq6jrn3/image/upload/v1753183967/Aadya24_nioavo.jpg", 
+  "avatar": "https://res.cloudinary.com/djiq6jrn3/image/upload/v1753183967/Aadya24_nioavo.jpg",
   "portfolio": "https://aadya-portfolio-iota.vercel.app/",
-  "skills": ["JAVA", "HTML5", "CSS3","Vanilla js","REACT JS","SQL","PYTHON","BLENDER","FIGMA","CANVA","Adobe Illustrator"],
+  "skills": [
+    "JAVA",
+    "HTML5",
+    "CSS3",
+    "Vanilla js",
+    "REACT JS",
+    "SQL",
+    "PYTHON",
+    "BLENDER",
+    "FIGMA",
+    "CANVA",
+    "Adobe Illustrator"
+  ],
   "social": {
     "GitHub": "https://github.com/AadyaAgarwal01",
     "LinkedIn": "https://www.linkedin.com/in/aadya-agarwal-a4780a330/",
