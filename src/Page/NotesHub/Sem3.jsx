@@ -800,6 +800,7 @@ const Notes = () => {
       contributors: [
         { name: "@Md Ashhar", profileUrl: "/profile/Ashhar21" },
         { name: "@Vivek", profileUrl: "/profile/VivekThakur23" },
+        { name: "@Kaushal", profileUrl: "/profile/Kaushal23" },
       ],
       handwrittenLinks: [
         {
@@ -807,8 +808,12 @@ const Notes = () => {
           url: "https://drive.google.com/drive/folders/1zCB6TSCy3UqphO6_at9Q3YXaH14LDJfL",
         },
         {
-          label: "Handwritten Notes (2021)",
+          label: "Handwritten Notes (2023)",
           url: "https://drive.google.com/drive/folders/1qoySTI02_RIlAVad1hTDJzFam04cPP32",
+        },
+        {
+          label: "Handwritten Notes (2023)",
+          url: "https://drive.google.com/drive/folders/1DpiAcQ0XF7bWSQ7RExrM8hhu0kFdZvxW?usp=drive_link",
         },
       ],
       link2: "#",
