@@ -17,6 +17,16 @@ app.use(
   }),
 );
 
+// health Check Endpoint
+app.get('/health', (req, res) => {
+    res.status(200).json({
+      status: "OK",
+      timestamp: new Date().toISOString(),
+      message: "RGVerse Backend is running",
+    });
+  },
+);
+
 app.post("/api/contact", async (req, res) => {
   const { name, email, message } = req.body;
   const transporter = nodemailer.createTransport({
