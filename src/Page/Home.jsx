@@ -26,7 +26,7 @@ const Navbar = () => {
 
 const Hero = () => {
   return (
-    <section className="bg-transparent hero-section flex flex-col items-center justify-center bg-secondaryColor pb-5 text-white">
+    <section className="hero-section flex flex-col items-center justify-center bg-secondaryColor bg-transparent pb-5 text-white">
       <div className="flex w-full flex-col items-center justify-center px-8 text-center">
         <img
           src={LOGO}
@@ -116,7 +116,6 @@ const StyledButton = styled.button`
 `;
 
 const FeatureCard = ({ title, description, image, link }) => {
-  const isComingSoon = title === "Discussion";
   return (
     <div className="feature-card group relative h-full rounded-lg border border-gray-700 bg-white p-4 p-6 shadow shadow-lg transition duration-300 hover:scale-[1.02] dark:bg-textPrimary">
       <div className="mb-4 h-40 overflow-hidden rounded-lg">
@@ -133,15 +132,9 @@ const FeatureCard = ({ title, description, image, link }) => {
           </h3>
           <p className="text-gray-400">{description}</p>
         </div>
-        {isComingSoon ? (
-          <StyledButton disabled className="cursor-not-allowed opacity-60">
-            <div className="inner">Coming Soon</div>
-          </StyledButton>
-        ) : (
-          <StyledButton onClick={() => (window.location.href = link)}>
-            <div className="inner">Explore more</div>
-          </StyledButton>
-        )}
+        <StyledButton onClick={() => (window.location.href = link)}>
+          <div className="inner">Explore more</div>
+        </StyledButton>
       </div>
     </div>
   );
@@ -211,7 +204,7 @@ const TechFeatures = () => {
         "Join topic-wise channels to discuss projects, internships, courses, and more with fellow RGIPTians.",
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjJspDoThOWNTMehvRMbOvmhjOaFVi5v8IIb5ph18iENvxMGZRAg&s=10&ec=72940544",
-      link: "/discussion",
+      link: "https://discussion-kd0q.onrender.com/",
     },
     // {
     //   title: "Ai/ Developer Tools",
@@ -224,7 +217,7 @@ const TechFeatures = () => {
   ];
 
   return (
-    <section className="bg-transparent tech-features-section py-16 pt-0 text-white">
+    <section className="tech-features-section bg-transparent py-16 pt-0 text-white">
       <div className="mx-auto mb-16 max-w-4xl text-center">
         <h2 className="custom-font mb-6 text-4xl font-bold text-textSecondary">
           Dive into RGVerse
