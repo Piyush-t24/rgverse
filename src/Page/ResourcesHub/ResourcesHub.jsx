@@ -1088,6 +1088,29 @@ const resourceData = [
       { name: "@Name", profileUrl: "/profile/Name" },
     ],
   },
+  {
+    id: 13,
+    type: "Google Drive",
+    title: "Notes by Apna College",
+    description:
+      "Comprehensive notes and study materials from Apna College covering various engineering subjects and programming concepts.",
+    tags: ["#Notes", "#ApnaCollege", "#AllBranches"],
+    icon: faGoogleDrive,
+    iconColor: "#00fb69",
+    iconBg: "rgba(0, 251, 105, 0.1)",
+    links: [
+      {
+        url: "https://drive.google.com/drive/folders/1wfNTKinBAV6CCxaI5lfSnnRFAYpy0uEl",
+        label: "Access Apna College Notes",
+        icon: faGoogleDrive,
+      },
+    ],
+    contributors: [
+      { name: "@Piyush", profileUrl: "/profile/Piyush23" },
+      { name: "@Name", profileUrl: "/profile/Name" },
+      { name: "@Name", profileUrl: "/profile/Name" },
+    ],
+  },
 ];
 
 // Search bar and filter logic
@@ -1103,6 +1126,7 @@ const gridSpans = [
   { col: 1, row: 1 },
   { col: 1, row: 1 },
   { col: 2, row: 1 },
+  { col: 1, row: 1 },
   { col: 1, row: 1 },
   { col: 1, row: 1 },
   { col: 1, row: 1 },
