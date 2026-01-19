@@ -1,0 +1,28 @@
+version: "3.8"
+services:
+  app:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      - NODE_ENV=production
+      # Uncomment below for custom env file
+      # - GMAIL_USER=youruser@gmail.com
+      # - GMAIL_PASS=yourpassword
+    # Uncomment if you want Docker to use your local .env
+    # env_file:
+    #   - ./backend/.env
+    restart: unless-stopped
+    depends_on: []
+    # volumes:
+    #   - ./backend/.env:/app/backend/.env:ro
+
+  # Example stub for database service extension
+  # db:
+  #   image: mongo:latest
+  #   ports:
+  #     - "27017:27017"
+  #   volumes:
+  #     - mongo-data:/data/db
+# volumes:
+#   mongo-data:
